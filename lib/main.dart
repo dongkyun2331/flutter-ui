@@ -25,15 +25,14 @@ class App extends StatelessWidget {
                         'Hey, Selena',
                         style: TextStyle(
                           color: Colors.white,
-                          fontSize: 38,
-                          fontWeight: FontWeight.w600,
+                          fontSize: 28,
+                          fontWeight: FontWeight.w800,
                         ),
                       ),
                       Text(
                         'Welcome back',
                         style: TextStyle(
-                          color: Colors.white,
-                        ),
+                            color: Colors.white.withOpacity(0.8), fontSize: 18),
                       ),
                     ],
                   )
