@@ -16,6 +16,7 @@ class App extends StatelessWidget {
                 height: 80,
               ),
               Row(
+                mainAxisAlignment: MainAxisAlignment.end,
                 children: [
                   Column(
                     children: [
