@@ -9,10 +9,31 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: Center(
-          child: Text('Hello world!'),
-        ),
-      ),
+          backgroundColor: Colors.black,
+          body: Column(
+            children: [
+              Row(
+                children: [
+                  Column(
+                    children: [
+                      Text(
+                        'Hey, Selena',
+                        style: TextStyle(
+                          color: Colors.white,
+                        ),
+                      ),
+                      Text(
+                        'Welcome back',
+                        style: TextStyle(
+                          color: Colors.white,
+                        ),
+                      ),
+                    ],
+                  )
+                ],
+              )
+            ],
+          )),
     );
   }
 }
