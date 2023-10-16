@@ -24,6 +24,8 @@ class App extends StatelessWidget {
                         'Hey, Selena',
                         style: TextStyle(
                           color: Colors.white,
+                          fontSize: 38,
+                          fontWeight: FontWeight.w600,
                         ),
                       ),
                       Text(
